@@ -77,12 +77,14 @@ header {
 .fondo-rayo {
     position: absolute;
     top: 700px;
-    left: calc(50% - 80px);
+    left: calc(50% - 90px);
+    z-index: 2;
 }
 .info {
     padding-top: 200px;
     display: flex;
     justify-content: space-around;
+    z-index: 2;
 }
 
 .centrar {
@@ -119,4 +121,20 @@ header {
     margin-top: 50px;
     display: flex;
     justify-content: space-around;
+}
+
+.fondo-cyber {
+    position: absolute;
+    right: 0;
+    bottom: -500px;
+    z-index: 1;
+    opacity: 0.3;
+}
+
+.fondo-cyber-2 {
+    position: absolute;
+    bottom: -200px;
+    left: 0;
+    z-index: 1;
+    opacity: 0.3;
 }
