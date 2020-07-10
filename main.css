@@ -266,7 +266,7 @@ header {
     padding: 10px 25px;
     border-radius: 25px;
 }
-
+/*
 .spikes {
     position: relative;
     background: #02002C;
@@ -286,7 +286,7 @@ header {
     background-image: linear-gradient(135deg, #02002C 25%, transparent 25%), linear-gradient(225deg, #02002C 25%, transparent 25%);
     background-position: 0 0;
   }
-
+*/
 footer {
     position: relative;
     background-image: url('./imagenes/fondo-footer.jpg');
@@ -306,12 +306,9 @@ footer {
 }
 
 .contenido-footer {
-    position: absolute;
-    z-index: 5;
-    width: 100%;
-    height: 100%;
+    padding: 150px 0px 35px 0px;
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
     align-items: center;
 }
 
@@ -333,4 +330,19 @@ footer {
     color: var(--color-texto);
     font-family: var(--titulo);
     font-size: 30px;
+}
+
+.texto-copy {
+    text-align: center;
+    color: white;
+    margin-bottom: 15px;
+    font-family: var(--parrafos);
+}
+
+.texto-copy img {
+    width: 180px;
+}
+
+.redes-sociales img {
+    width: 30px;
 }
