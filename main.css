@@ -346,3 +346,15 @@ footer {
 .redes-sociales img {
     width: 30px;
 }
+
+.mancha-derecha, .mancha-izquierda {
+    position: absolute;
+    width: 250px;
+}
+.mancha-derecha{
+    right: 0;
+}
+.mancha-izquierda{
+    left: -30px;
+    bottom: 0;
+}
