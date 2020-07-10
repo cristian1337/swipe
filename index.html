@@ -5,8 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./normalizar.css">
-    <link rel="stylesheet" href="glider.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.css">
     <link rel="stylesheet" href="./main.css">
+    <link rel="icon" type="image/png" href="./imagenes/favicon.png" sizes="32x32">
     <title>SWIPE | Lo hacemos unico parce !</title>
 </head>
 <body class="">
@@ -26,7 +27,9 @@
             <video src="./video/swipe-intro.mp4" autoplay loop muted></video>
         </div>
         <div class="overlay"></div>
-        
+        <div class="texto-header">
+
+        </div>
     </header>
     <main class="contenido">
         <div class="fondo-rayo">
@@ -71,23 +74,96 @@
             <h2 class="titulo centrar">PROYECTOS</h2>
             <div class="contenedor-carousel">
                 <div class="carousel">
+
                     <h2 class="titulo centrar" >DISEÑO</h2>
-                    <div class="carousel-item">
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                        <div></div>
+                    
+                    <div class="carousel__contenedor">
+                        <button aria-label="Anterior" class="carousel__anterior">
+                            <i class="fas fa-chevron-left"></i>
+                        </button>
+        
+                        <div class="carousel__lista">
+                            <div class="carousel__elemento">
+                                <img src="./imagenes/carousel.jpg" alt="Rock and Roll Hall of Fame">
+                                <button class="ver-mas">VER MÁS</button>
+                            </div>
+                            <div class="carousel__elemento">
+                                <img src="./imagenes/carousel.jpg" alt="Constitution Square - Tower I">
+                                <button class="ver-mas">VER MÁS</button>
+                            </div>
+                            <div class="carousel__elemento">
+                                <img src="./imagenes/carousel.jpg" alt="Empire State Building">
+                                <button class="ver-mas">VER MÁS</button>
+                            </div>
+                            <div class="carousel__elemento">
+                                <img src="./imagenes/carousel.jpg" alt="Harmony Tower">
+                                <button class="ver-mas">VER MÁS</button>
+                            </div>
+                        </div>
+        
+                        <button aria-label="Siguiente" class="carousel__siguiente">
+                            <i class="fas fa-chevron-right"></i>
+                        </button>
                     </div>
+        
+                    <div role="tablist" class="carousel__indicadores"></div>
                 </div>
                 <div class="carousel">
                     <h2 class="titulo centrar">WEB</h2>
+
+                    <div class="carousel__contenedor">
+                        <button aria-label="Anterior" class="carousel__anterior__2">
+                            <i class="fas fa-chevron-left"></i>
+                        </button>
+        
+                        <div class="carousel__lista__2">
+                            <div class="carousel__elemento">
+                                <img src="./imagenes/carousel.jpg" alt="Rock and Roll Hall of Fame">
+                                <button class="ver-mas">VER MÁS</button>
+                            </div>
+                            <div class="carousel__elemento">
+                                <img src="./imagenes/carousel.jpg" alt="Constitution Square - Tower I">
+                                <button class="ver-mas">VER MÁS</button>
+                            </div>
+                            <div class="carousel__elemento">
+                                <img src="./imagenes/carousel.jpg" alt="Empire State Building">
+                                <button class="ver-mas">VER MÁS</button>
+                            </div>
+                            <div class="carousel__elemento">
+                                <img src="./imagenes/carousel.jpg" alt="Harmony Tower">
+                                <button class="ver-mas">VER MÁS</button>
+                            </div>
+                        </div>
+        
+                        <button aria-label="Siguiente" class="carousel__siguiente__2">
+                            <i class="fas fa-chevron-right"></i>
+                        </button>
+
+                        <div role="tablist" class="carousel__indicadores__2"></div>
+                    </div>
+
                 </div>
             </div>
         </div>
+        <section class="spikes"></section>
     </main>
     <footer>
+        <div class="overlay-2"></div>
+        <div class="contenido-footer">
+            <div class="texto-copy">
+                <h3>
 
+                </h3>
+            </div>
+            <div class="redes-sociales">
+                <img src="./imagenes/facebook-blanco.svg" width="45px" alt="">
+                <img src="./imagenes/twitter-blanco.svg" width="45px" alt="">
+                <img src="./imagenes/instagram-blanco.svg" width="45px" alt="">
+            </div>
+        </div>
     </footer>
-    <script src="glider.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.js"></script>
+    <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+    <script src="./main.js"></script>
 </body>
 </html>
