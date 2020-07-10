@@ -372,6 +372,7 @@ footer {
   }
   .texto-header{
       font-size: 15px;
+      text-align: center;
   }
   .info{
       flex-direction: column;
@@ -381,7 +382,7 @@ footer {
     align-items: center;
   }
   .mancha-derecha, .mancha-izquierda{
-      width: 120px;
+      width: 100px;
   }
   .mancha-izquierda {
       bottom: 155px;
@@ -391,11 +392,12 @@ footer {
       bottom: 165px;
   }
   .fondo-proyectos {
-    font-size: 8em;
+    width: 100%;
+    font-size: 7em;
     opacity: .2;
     position: absolute;
     top: -60px;
-    left: calc(50% - 519px);
+    left: calc(50% - 454px);
     margin: 0;
   }
   .logo {
@@ -416,7 +418,7 @@ footer {
 }
 
 .fondo-cyber-2 {
-    width: 408px;
+    width: 355px;
     position: absolute;
     bottom: -108px;
     left: 0;
@@ -432,21 +434,21 @@ footer {
 }
 .descripcion {
     display: inline-flex;
-    width: 400px;
+    width: 100%;
     font-size: 15px;
 }
 .descripcion p {
     margin-left: 15px;
 }
 .fondo-rayo {
-    top: 890px;
+    top: 820px;
     left: calc(50% - 65px);
 }
 .fondo-rayo img{
-    width: 150px;
+    width: 120px;
 }
 .aptitudes {
-    margin-bottom: 180px;
+    margin-bottom: 165px;
 }
 .redes-sociales {
     width: 50%;
