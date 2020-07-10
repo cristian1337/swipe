@@ -65,7 +65,7 @@ header {
     top: 0;
     left: 0;
     background: #030133;
-    opacity: .65;
+    opacity: .75;
     transform: skewY(-4deg);
     transform-origin: top left;
 }
@@ -319,4 +319,18 @@ footer {
     display: flex;
     justify-content: space-evenly;
     width: 20%;
+}
+
+.texto-header {
+    position: absolute;
+    width: 100%;
+    height: 80%;
+    z-index: 9;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--color-texto);
+    font-family: var(--titulo);
+    font-size: 30px;
 }
