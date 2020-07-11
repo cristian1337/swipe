@@ -19,5 +19,16 @@ window.addEventListener('load', function(){
 			next: '.carousel__siguiente__2'
 		},
 		
+	});
+	
+	new Glider(document.querySelector('.carousel__lista__3'), {
+		slidesToShow: 1,
+        slidesToScroll: 1,
+		dots: '.carousel__indicadores__3',
+		arrows: {
+			prev: '.carousel__anterior__3',
+			next: '.carousel__siguiente__3'
+		},
+		
     });
 });
