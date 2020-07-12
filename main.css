@@ -245,6 +245,11 @@ header {
     width: 400px;
 }
 
+.carousel__elemento button {
+    cursor: pointer;
+    border: none !important;
+}
+
 .carousel__indicadores .glider-dot {
 	display: block;
 	width: 30px;
